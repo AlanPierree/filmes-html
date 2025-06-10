@@ -3,8 +3,9 @@
     --cinza-sec: #C0C0C0;
     --botao-azul: #167BF7;
     --botao-azul-efeito: #3c92fa;
-    --cor-de-fundo: #00030C;
-    --fonte-main: 'Lato'
+    --cor-de-fundo: #000000;
+    --fonte-main: 'Lato';
+    --fonte-sec: 'Niconne';
 }
 
 * {
@@ -13,8 +14,8 @@
 }
 
 header {
-    background: #BBBBBB;
-    padding: 20px 0;
+    background: #550808;
+    padding: 4em 1em;
 }
 
 .caixa {
@@ -23,9 +24,15 @@ header {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 4em;
+    font-family: var(--fonte-sec);
+    font-weight: 400;
+}
+
 nav {
     position: absolute;
-    top: 110px;
+    top: 1.5em;
     right: 0;
 }
 
@@ -36,14 +43,14 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #ffd000;
     text-decoration: underline;
 }
 
