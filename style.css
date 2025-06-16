@@ -38,7 +38,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 50px;
 }
 
 nav a {
@@ -58,12 +58,34 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-main);
     font-family: var(--fonte-main);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.principal {
+    /* margin-top · margin-right · margin-bottom · margin-left. */
+    margin: 4em 29em 4em 29em;
+    text-align: justify;
+    padding: 1em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+.trailers {
+    margin: 1em 0;
+    text-align: center;
+    padding: 1em
+}
+
+h3 {
+    margin: 1em;
+}
+
+
+
+
+footer {
+    text-align: center;
 }
