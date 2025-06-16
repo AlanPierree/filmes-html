@@ -74,15 +74,28 @@ p {
 }
 
 .trailers {
-    margin: 1em 0;
+    margin: 0;
     text-align: center;
-    padding: 1em
+    padding: 0;
 }
 
 h3 {
     margin: 1em;
 }
 
+h4 {
+    font-size: 25px;
+}
+
+.lista-sinopses {
+    margin: 1em 29em 1em 29em;
+    text-align: justify;
+    padding: 1em;
+}
+
+li {
+    margin-top: 4em;
+}
 
 
 
